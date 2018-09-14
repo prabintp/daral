@@ -46,14 +46,14 @@ permalink: pretty
 # paginate_path: "blog/page:num"
 
 # Minifier settings
-minibundle:
-  minifier_commands:
-    js: node_modules/.bin/uglifyjs -
+#minibundle:
+#  minifier_commands:
+#    js: node_modules/.bin/uglifyjs -
 
 gems:
 
   - jekyll-seo-tag
-  - jekyll/minibundle
+ # - jekyll/minibundle
   # - jekyll-paginate
   # - jekyll-feed
   - jekyll-sitemap
